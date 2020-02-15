@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "简单工厂模式", "简�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "抽象工厂模式", "抽象工厂模式\抽象工厂模式.vcxproj", "{2169B37D-222D-4B0D-A5DF-4D6C2C13EA6E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单例设计模式", "单例设计模式\单例设计模式.vcxproj", "{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{2169B37D-222D-4B0D-A5DF-4D6C2C13EA6E}.Release|x64.Build.0 = Release|x64
 		{2169B37D-222D-4B0D-A5DF-4D6C2C13EA6E}.Release|x86.ActiveCfg = Release|Win32
 		{2169B37D-222D-4B0D-A5DF-4D6C2C13EA6E}.Release|x86.Build.0 = Release|Win32
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Debug|x64.ActiveCfg = Debug|x64
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Debug|x64.Build.0 = Debug|x64
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Debug|x86.Build.0 = Debug|Win32
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Release|x64.ActiveCfg = Release|x64
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Release|x64.Build.0 = Release|x64
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Release|x86.ActiveCfg = Release|Win32
+		{B90DB164-AA4B-4CA3-B7C9-019CD0DED3D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
