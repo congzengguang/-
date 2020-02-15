@@ -18,5 +18,28 @@
     <ClCompile Include="简单工厂模式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FruitFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Banana.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fruit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FruitFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Banana.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

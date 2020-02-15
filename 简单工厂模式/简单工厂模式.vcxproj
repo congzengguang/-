@@ -147,7 +147,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="Banana.cpp" />
+    <ClCompile Include="FruitFactory.cpp" />
     <ClCompile Include="简单工厂模式.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="Banana.h" />
+    <ClInclude Include="Fruit.h" />
+    <ClInclude Include="FruitFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

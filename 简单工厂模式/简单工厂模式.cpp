@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
-
+#include "Apple.h"
+#include "Banana.h"
+#include "Fruit.h"
+#include "FruitFactory.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    FruitFactory factory;
+    Fruit* f = NULL;
+    f = factory.getFruit("apple");
+    f->getName();
+    delete f;
+    f = factory.getFruit("banana");
+    f->getName();
+    delete f;
+    return 0;
+    //std::cout << "Hello World!\n";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
